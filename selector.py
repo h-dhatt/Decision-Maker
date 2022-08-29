@@ -12,10 +12,7 @@ activities = [
     'Clean your room'
 ]
 
-# random.randint(1, 5) --> random number between 1 and 5
-# random.choice(array) --> random item in this array
-
-selected = random.choice(activities) # randomly choose a friend
+selected = random.choice(activities)
 
 print('What should I do today?')
 print(selected)
